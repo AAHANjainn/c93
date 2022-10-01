@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to left , rgb(255, 255, 0) ,rgb(0, 251, 255) , rgb(128, 0, 105));
+    
+}
+#username{
+    width: 50%;
+    font-size: 20px;
+}
+
+#heading{
+    font-weight: bold;
+    text-shadow: 2px 2px steelblue;
+    font-size: 40px;
+    text-decoration: underline black;
+}
+
+#room_name_value{
+   width:50%;
+   font-size: 25px;
+}
+#output{
+    background-color: gray;
+    border-radius: 20px;
+    width:50%;
+    color:white;
+    font-size: 30px;
+    border-top: 5px solid crimson;
+}

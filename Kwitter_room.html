@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rooms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <button id="exit" class="btn btn-danger" onclick="exit()">EXIT</button>
+    <center>
+        <h1 id="heading">Lets Chat</h1>
+        <h2>Welcome : <span id="welcome_username"></span></h2>
+        <input type="text" placeholder="Enter your room name" id="room_name_value"class="form-control">
+        <br>
+        <br>
+        <button id="add_room" onclick="add_room()" class="btn btn-primary">Add Room</button>
+        <h2>#TRENDING ROOMS</h2>
+        <div id="output">
+
+        </div>
+    </center>
+    <script src='kwitter.js'></script>
+</body>
+</html>
